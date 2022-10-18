@@ -38,5 +38,28 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ```sh
 ng add @angular-architects/module-federation --project shell --port 4200 --type host
+
 ng add @angular-architects/module-federation --project remote --port 4201 --type remote
 ```
+
+## Isseue Solved
+
+if you not able to use `ng add module federaion`
+
+```sh
+npm i @angular-architects/module-federation@^14.3.10 -D
+
+```
+
+The key point `mf.manifest.json` file should be load in set up
+
+```sh
+mf.manifest.json
+
+```
+
+## Reference
+
+1. https://www.angulararchitects.io/en/aktuelles/the-microfrontend-revolution-part-2-module-federation-with-angular/
+2. https://blog.csdn.net/lvxinaidou/article/details/125856927
+3. https://github.com/manfredsteyer/module-federation-plugin-example/tree/static
