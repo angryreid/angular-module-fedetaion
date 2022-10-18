@@ -1,5 +1,13 @@
 # ModuleFederationDemo
 
+## Angualar14
+
+```sh
+// angular version must be 14
+ng update @angular/core@14 @angular/cli@14
+
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
 ## Development server
@@ -25,3 +33,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Add & Init
+
+```sh
+ng add @angular-architects/module-federation --project shell --port 4200 --type host
+ng add @angular-architects/module-federation --project remote --port 4201 --type remote
+```
